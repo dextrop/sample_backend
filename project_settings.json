@@ -1,0 +1,23 @@
+{
+  "project_location": "/Users/saurabhpandey/Desktop/work/samplebackend",
+  "project_name": "samplebackend",
+  "project_settings": {
+    "tables": [
+      {
+          "table_name": "Users",
+          "columns": [
+              {"column_name": "name", "column_type": "varchar"},
+              {"column_name": "phoneno", "column_type": "varchar", "max_len": 13}
+          ]
+      }
+    ],
+    "apis": [
+      {
+          "api_endpoint": "v1/users/",
+          "api_type": "normal-api",
+          "api_table": "Users",
+          "api_name": "UsersAPI"
+      }
+    ]
+  }
+}
